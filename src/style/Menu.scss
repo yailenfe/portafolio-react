@@ -1,0 +1,19 @@
+.container-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+        text-decoration: none;
+        padding: 30px;
+        color: rgb(187, 187, 187);
+        &:hover {
+            color: rgb(160, 160, 160);
+        }
+    }
+}
