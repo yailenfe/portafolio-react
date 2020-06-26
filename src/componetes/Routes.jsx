@@ -6,6 +6,7 @@ import About from "./About";
 import Proyectos from "./Proyectos";
 import ListadoProyecto from "./ListadoProyecto";
 import ListadoService from "./ListadoService";
+import Contactame from "./Contactame";
 
 class Routes extends React.Component {
     render() {
@@ -16,6 +17,7 @@ class Routes extends React.Component {
                 <About />
                 <ListadoProyecto />
                 <ListadoService />
+                <Contactame/>
             </Router>
         );
     }
