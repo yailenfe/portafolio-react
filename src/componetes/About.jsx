@@ -2,10 +2,12 @@ import React from "react";
 import "../style/About.scss";
 import Bloque from "./Bloque";
 
+
 class About extends React.Component {
     render() {
         return (
             <Bloque color="rgba(238, 238, 238, 0.933)">
+                
                 <div className="container-about">
                     <div className="container-imagen">
                         <img src="./jpg-1.jpg" alt="" />

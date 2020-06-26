@@ -1,0 +1,20 @@
+.lista-proyectos {
+    display: flex;
+    margin: 0;
+    padding: 50px 90px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+
+    .style-proyecto {
+        width: 26%;
+        margin-bottom: 60px;
+    }
+
+    .style-proyecto:hover {
+        box-shadow: 1px 1px 30px #bdbdbd80;
+    }
+    .style-proyecto:hover a {
+        background-color: rgb(20, 211, 30);
+    }
+}
