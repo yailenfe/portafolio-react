@@ -5,8 +5,10 @@
     background-color: rgba(238, 238, 238, 0.933);
 
     img {
-        height: 200px;
+        height: 300px;
         width: 100%;
+        image-rendering: pixelated;
+        object-fit:cover;
     }
 
     div {

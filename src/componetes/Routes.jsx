@@ -2,11 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Encabezado from "./Encabezado";
 import Menu from "./Menu";
-import About from "./About"
-import Proyectos from "./Proyectos"
+import About from "./About";
+import Proyectos from "./Proyectos";
 import ListadoProyecto from "./ListadoProyecto";
-
-
+import ListadoService from "./ListadoService";
 
 class Routes extends React.Component {
     render() {
@@ -14,8 +13,9 @@ class Routes extends React.Component {
             <Router>
                 <Menu />
                 <Encabezado />
-                <About/>
-                <ListadoProyecto/>
+                <About />
+                <ListadoProyecto />
+                <ListadoService />
             </Router>
         );
     }

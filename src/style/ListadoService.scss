@@ -1,0 +1,16 @@
+.lista-service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+    .style-service {
+        width: 26%;
+        margin: 20px;
+    }
+
+    .style-service:hover {
+        box-shadow: 1px 1px 30px #bdbdbd80;
+    }
+}

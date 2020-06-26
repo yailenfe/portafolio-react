@@ -1,0 +1,30 @@
+.container-service {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #fff;
+    position: relative;
+
+    img {
+        height: 80px;
+        image-rendering: pixelated;
+        object-fit:cover;
+        width: 80px;
+        border-radius: 50%;
+        position: absolute;
+        left: 180px;
+        top: -40px;
+    }
+
+    h2 {
+        margin-top: 40px;
+        font-size: 1.5em;
+        font-weight: 400;
+        height: 2em;
+    }
+
+    span {
+        color: grey;
+        margin: 0;
+    }
+}
