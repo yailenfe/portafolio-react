@@ -24,7 +24,7 @@ class About extends React.Component {
                                 tasks and contribute with others to carry out
                                 the project forward
                             </p>
-                            <a className="btn" href="#">
+                            <a className="btn" href="https://docs.google.com/document/u/0/export?format=pdf&id=1DHkn8TSxjI4cn_cjNWN2xpiQc73dduVqlRE7ThpaDLQ">
                                 Download CV
                             </a>
                         </div>
