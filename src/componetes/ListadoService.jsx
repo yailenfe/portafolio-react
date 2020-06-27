@@ -7,46 +7,48 @@ class ListadoService extends React.Component {
     render() {
         return (
             <Bloque color="rgba(238, 238, 238, 0.933)">
+                <h1 className="titulo-general">Service</h1>
                 <div className="lista-service">
+                    
                     <div className="style-service">
                         <Service
-                            imagen="./jpg-1.jpg"
-                            titulo="Web Disaining"
+                            imagen="./web-design-icon.png"
+                            titulo="WEB DESIGN"
                             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo fuga molestiae voluptas non fugit."
                         />
                     </div>
                     <div className="style-service">
                         <Service
-                            imagen="./jpg-1.jpg"
-                            titulo="Web Disaining"
+                            imagen="./web.jpg"
+                            titulo="WEB DEVELOPMENT"
                             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo fuga molestiae voluptas non fugit."
                         />
                     </div>
                     <div className="style-service">
                         <Service
-                            imagen="./jpg-1.jpg"
-                            titulo="Web Disaining"
+                            imagen="./responsive-web-desig.jpg"
+                            titulo="RESPONSIVE DESIGN"
                             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo fuga molestiae voluptas non fugit."
                         />
                     </div>
                     <div className="style-service">
                         <Service
-                            imagen="./jpg-1.jpg"
-                            titulo="Web Disaining"
+                            imagen="./354-3542510_web-design-development-web-development-web-design-icons.png"
+                            titulo="WEB APPLICATION"
                             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo fuga molestiae voluptas non fugit."
                         />
                     </div>
                     <div className="style-service">
                         <Service
-                            imagen="./jpg-1.jpg"
-                            titulo="Web Disaining"
+                            imagen="./images.png"
+                            titulo="WEB APPLICATION"
                             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo fuga molestiae voluptas non fugit."
                         />
                     </div>
                     <div className="style-service">
                         <Service
-                            imagen="./jpg-1.jpg"
-                            titulo="Web Disaining"
+                            imagen="./pipo.jpg"
+                            titulo="WEB APPLICATION"
                             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo fuga molestiae voluptas non fugit."
                         />
                     </div>

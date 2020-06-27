@@ -7,10 +7,11 @@ class About extends React.Component {
     render() {
         return (
             <Bloque color="rgba(238, 238, 238, 0.933)">
+                 <h1 className="titulo-general">About Me</h1>
                 
                 <div className="container-about">
                     <div className="container-imagen">
-                        <img src="./jpg-1.jpg" alt="" />
+                        <img src="./perfil.jpeg" alt="" />
                     </div>
                     <div className="container-abaut-inf">
                         <div className="info-personal">

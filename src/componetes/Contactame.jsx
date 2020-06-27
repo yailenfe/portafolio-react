@@ -6,6 +6,7 @@ class Contactame extends React.Component {
     render() {
         return (
             <Bloque>
+                <h1 className="titulo-general">Contact Me</h1>
                 <div className="container-contacto">
                    <div className="container-contacto-peque">
                    <form action="">

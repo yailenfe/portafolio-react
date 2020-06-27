@@ -3,9 +3,9 @@ import "../style/Proyecto.scss";
 
 class Proyectos extends React.Component {
     render() {
-        const { imagen, titulo, description } = this.props;
+        const { imagen, titulo, description,link} = this.props;
         return (
-            <>
+            <a href={link}  className="container-proyecto-link" target="_blank">
                 <div className="container-proyecto">
                     <img src={imagen} alt="" />
                     <div>
@@ -13,7 +13,7 @@ class Proyectos extends React.Component {
                         <span>{description}</span>
                     </div>
                 </div>
-            </>
+            </a>
         );
     }
 }
