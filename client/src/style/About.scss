@@ -58,3 +58,53 @@
         }
     }
 }
+
+@media screen and (max-width: 800px) {
+    .container-about {
+        background: none;
+        margin: 0;
+        padding: 0;
+
+        .container-imagen {
+            position: absolute;
+            left: 100px;
+            top: -60px;
+
+            img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+        }
+        .container-abaut-inf {
+            display: inline-block;
+            margin-top: 60px;
+
+            .info-personal {
+                width: 100%;
+                padding: 2px;
+              
+
+                a {
+                    margin:20px 0;
+                    
+                }
+            }
+
+            .info-contact {
+                width: 100%;
+                padding: 3px;
+                justify-content: center;
+
+                strong {
+                    padding: 8px;
+
+                    span {
+                        font-weight: 200;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

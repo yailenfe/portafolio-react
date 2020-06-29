@@ -12,3 +12,12 @@
 
     
 }
+
+@media screen and (max-width: 800px){
+    .lista-service{
+        .style-service {
+            width: 100%;
+            margin: 25px 0;
+        }
+    }
+}

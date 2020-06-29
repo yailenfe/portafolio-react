@@ -31,3 +31,14 @@
         }
     }
 }
+
+@media screen and (max-width: 800px) {
+    .container-proyecto-link {
+        .container-proyecto .container-proyecto {
+            img {
+                height: 200px;
+                object-fit: contain;
+            }
+        }
+    }
+}

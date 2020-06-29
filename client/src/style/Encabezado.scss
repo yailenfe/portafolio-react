@@ -1,18 +1,14 @@
 .container {
     background-image: url("/container.jpg");
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    position: relative;
+    justify-content: center;
 
     .container-encabezado {
         text-align: center;
-        align-content: center;
-        position: absolute;
-        top: 400px;
-        left: 700px;
 
         h1 {
             font-size: 3.5em;
@@ -23,6 +19,30 @@
         span {
             color: rgb(207, 207, 207);
             font-size: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        background-image: url("/container.jpg");
+        background-repeat: no-repeat;
+        height: 70vh;
+        width: 100%;
+
+        .container-encabezado {
+            text-align: center;
+
+            h1 {
+                font-size: 2em;
+                color: rgb(209, 209, 209);
+                padding: 15px;
+            }
+
+            span {
+                color: rgb(207, 207, 207);
+                font-size: 16px;
+            }
         }
     }
 }

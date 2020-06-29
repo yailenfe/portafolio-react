@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     z-index: 10;
-    width: 100%;
+    width: 100vw;
     padding-right: 50px;
     display: flex;
     justify-content: flex-end;
@@ -17,4 +17,32 @@
             color: rgb(160, 160, 160);
         }
     }
+
+    
 }
+
+@media screen and (max-width: 800px){
+    .container-menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        display: flex;
+        justify-content: space-around;
+        
+
+        a {
+            padding:20px 0;
+            font-size: 12px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            &:hover {
+                color: rgb(160, 160, 160);
+            }
+        }
+    }
+   
+}
+
+
