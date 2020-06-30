@@ -42,7 +42,7 @@ class ListadoProyecto extends React.Component {
                             link={
                                 "https://yai-calc.herokuapp.com/"
                             }
-                            imagen="./calculadora.png"
+                            imagen="./calculadora.jpg"
                             titulo="Calculadora"
                             description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente ad laboriosam soluta?"
                         />

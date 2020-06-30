@@ -1,24 +1,22 @@
 .container-about {
     position: relative;
     background-color: white;
-    margin: 0 200px;
-    margin-top: 100px;
-    padding-top: 100px;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding-top:50px;
     justify-content: center;
     display: flex;
+    box-sizing: content-box;
+    width: 100%;
 
-    .container-imagen {
-        width: 200px;
-        height: 200px;
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+        top: -80px;
         position: absolute;
-        left: 43%;
-        top: -100px;
-
-        img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-        }
     }
 
     .container-abaut-inf {
@@ -64,18 +62,15 @@
         background: none;
         margin: 0;
         padding: 0;
+        justify-content: center;
 
-        .container-imagen {
-            position: absolute;
-            left: 100px;
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
             top: -60px;
-
-            img {
-                width: 100px;
-                height: 100px;
-                border-radius: 50%;
-            }
         }
+
         .container-abaut-inf {
             display: inline-block;
             margin-top: 60px;
@@ -83,11 +78,9 @@
             .info-personal {
                 width: 100%;
                 padding: 2px;
-              
 
                 a {
-                    margin:20px 0;
-                    
+                    margin: 20px 0;
                 }
             }
 
