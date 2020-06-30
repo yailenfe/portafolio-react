@@ -2,6 +2,7 @@ import React from "react";
 import "../style/About.scss";
 import Bloque from "./Bloque";
 
+
 class About extends React.Component {
     render() {
         return (
@@ -9,7 +10,8 @@ class About extends React.Component {
                 <h1 className="titulo-general">About Me</h1>
 
                 <div className="container-about">
-                    <img src="./perfil.jpeg" alt="" />
+                    
+                    <img src="../imagenes/perfil.jpeg" alt="" />
 
                     <div className="container-abaut-inf">
                         <div className="info-personal">

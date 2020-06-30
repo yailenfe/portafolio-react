@@ -12,42 +12,42 @@ class ListadoService extends React.Component {
                     
                     <div className="style-service">
                         <Service
-                            imagen="./web-design-icon.png"
+                            imagen="../icon/web-design-icon.png"
                             titulo="WEB DESIGN"
                             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo fuga molestiae voluptas non fugit."
                         />
                     </div>
                     <div className="style-service">
                         <Service
-                            imagen="./web.jpg"
+                            imagen="../icon/web.jpg"
                             titulo="WEB DEVELOPMENT"
                             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo fuga molestiae voluptas non fugit."
                         />
                     </div>
                     <div className="style-service">
                         <Service
-                            imagen="./responsive-web-desig.jpg"
+                            imagen="../icon/responsive-web-desig.jpg"
                             titulo="RESPONSIVE DESIGN"
                             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo fuga molestiae voluptas non fugit."
                         />
                     </div>
                     <div className="style-service">
                         <Service
-                            imagen="./354-3542510_web-design-development-web-development-web-design-icons.png"
+                            imagen="../icon/354-3542510_web-design-development-web-development-web-design-icons.png"
                             titulo="WEB APPLICATION"
                             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo fuga molestiae voluptas non fugit."
                         />
                     </div>
                     <div className="style-service">
                         <Service
-                            imagen="./images.png"
+                            imagen="../icon/images.png"
                             titulo="WEB APPLICATION"
                             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo fuga molestiae voluptas non fugit."
                         />
                     </div>
                     <div className="style-service">
                         <Service
-                            imagen="./pipo.jpg"
+                            imagen="../icon/pipo.jpg"
                             titulo="WEB APPLICATION"
                             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo fuga molestiae voluptas non fugit."
                         />

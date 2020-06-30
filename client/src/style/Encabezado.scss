@@ -1,5 +1,5 @@
 .container {
-    background-image: url("/container.jpg");
+    background-image: url("/public/imagenes/container.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -25,10 +25,10 @@
 
 @media screen and (max-width: 800px) {
     .container {
-        background-image: url("/container.jpg");
-        background-repeat: no-repeat;
-        height: 70vh;
-        width: 100%;
+        // background-image:url(/./client/public/imagenes/container.jpg)
+        // background-repeat: no-repeat;
+        // height: 70vh;
+        // width: 100%;
 
         .container-encabezado {
             text-align: center;
