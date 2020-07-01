@@ -6,7 +6,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        background-color: rgba(238, 238, 238, 0.933);
+       
 
         img {
             height: 300px;
@@ -19,7 +19,7 @@
             h3 {
                 margin: 0;
                 font-size: 1.5em;
-                font-weight: 300;
+                font-weight: 500;
                 height: 2em;
                 text-align: center;
             }
@@ -27,6 +27,9 @@
             span {
                 color: grey;
                 margin: 0;
+                // line-height: 1;
+                // letter-spacing: 1.6px;
+                white-space: pre-wrap;
             }
         }
     }
