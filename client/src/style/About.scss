@@ -1,13 +1,13 @@
 .container-about {
     position: relative;
     background-color: white;
-    margin-bottom:50px;
     padding-top:50px;
     justify-content: center;
     display: flex;
     box-sizing: content-box;
     box-sizing: border-box;
-    margin: 80px;
+    margin: 60px;
+    
     
 
     img {
@@ -28,7 +28,7 @@
             display: flex;
             width:60%;
             flex-direction: column;
-            padding: 40px;
+            padding:40px;
             padding-left: 50px;
           
 
@@ -44,7 +44,6 @@
         .info-contact {
             display: flex;
             flex-direction: column;
-            align-self: stretch;
             width: 35%;
             padding: 40px;
 
