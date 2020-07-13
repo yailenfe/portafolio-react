@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Encabezado from "./Encabezado";
 import Menu from "./Menu";
 import About from "./About";
-import Proyectos from "./Proyectos";
 import ListadoProyecto from "./ListadoProyecto";
 import ListadoService from "./ListadoService";
 import Contactame from "./Contactame";
@@ -14,10 +13,12 @@ class Routes extends React.Component {
             <Router>
                 <Menu />
                 <Encabezado />
-                <About />
+                <div id="about">
+                    <About />
+                </div>
                 <ListadoProyecto />
                 <ListadoService />
-                <Contactame/>
+                <Contactame />
             </Router>
         );
     }

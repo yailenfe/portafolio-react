@@ -24,8 +24,7 @@ class ListadoProyecto extends React.Component {
                             link={"https://yai-design-todo-json.herokuapp.com/"}
                             imagen="./imagenes/yai-desing-todo.png"
                             titulo="Todos JSON"
-                            description="
-                            Responsive portfolio design using React and boostrap, which calls the API and returns a list of users, which when clicked returns a list of details of the tasks completed and those that remain to be done by each user"
+                            description="Responsive portfolio design using React and boostrap, which calls the API and returns a list of users, which when clicked returns a list of details of the tasks completed and those that remain to be done by each user"
                         />
                     </div>
                     <div className="style-proyecto">
@@ -41,7 +40,7 @@ class ListadoProyecto extends React.Component {
                             link={"https://yai-portfolio.herokuapp.com/"}
                             imagen="../imagenes/yai-porttafolio1.png"
                             titulo="Portafolio"
-                            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente ad laboriosam soluta?"
+                            description="Responsible portfolio created with React, which allows to visualize the different realized projects."
                         />
                     </div>
                     <div className="style-proyecto">
@@ -58,7 +57,7 @@ class ListadoProyecto extends React.Component {
                             link={"https://yai-design-6.herokuapp.com/"}
                             imagen="../imagenes/desig-6.png"
                             titulo="Design-Learning-Mercadito"
-                            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente ad laboriosam soluta?"
+                            description="Responsible design created with React, which allows you to make calls to the Api showing you the products and the details of each one of them."
                         />
                     </div>
 
@@ -66,8 +65,8 @@ class ListadoProyecto extends React.Component {
                         <Proyecto
                             link={"https://yai-design-2.herokuapp.com/"}
                             imagen="../imagenes/design-2.png"
-                            titulo="Design-Page-web"
-                            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente ad laboriosam soluta?"
+                            titulo="-Design-web"
+                            description="Responsive portfolio created with HTML and CSS, which allows you to see the different projects carried out"
                         />
                     </div>
                     <div className="style-proyecto">
@@ -77,7 +76,7 @@ class ListadoProyecto extends React.Component {
                             }
                             imagen="./imagenes/portafolio-2.png"
                             titulo="Desing-Portfolio"
-                            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente ad laboriosam soluta?"
+                            description="Responsive portfolio created with HTML and CSS, which allows you to see the different projects carried out"
                         />
                     </div>
                     <div className="style-proyecto">
@@ -85,7 +84,7 @@ class ListadoProyecto extends React.Component {
                             link={"https://yai-design-1.herokuapp.com/"}
                             imagen="./imagenes/design-1.png"
                             titulo="Design-Galery"
-                            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente ad laboriosam soluta?"
+                            description="Design of a Gallery created with HTML and CSS, with animation and different effects."
                         />
                     </div>
 
@@ -93,16 +92,16 @@ class ListadoProyecto extends React.Component {
                         <Proyecto
                             link={"https://yai-design-7.herokuapp.com/"}
                             imagen="./imagenes/design-7.png"
-                            titulo="Design-Page"
-                            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente ad laboriosam soluta?"
+                            titulo="Page-Design"
+                            description="Design of a web page created with HTML and CSS"
                         />
                     </div>
                     <div className="style-proyecto">
                         <Proyecto
                             link={"https://yai-design-3.herokuapp.com/"}
                             imagen="./imagenes/design-3.png"
-                            titulo="Design-Page-HTML"
-                            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente ad laboriosam soluta?"
+                            titulo="Page-Design-HTML"
+                            description="Design of a web page created with HTML and CSS"
                         />
                     </div>
                 </div>
