@@ -24,7 +24,7 @@ class ListadoProyecto extends React.Component {
                             link={"https://yai-design-todo-json.herokuapp.com/"}
                             imagen="./imagenes/yai-desing-todo.png"
                             titulo="Todos JSON"
-                            description="Responsive portfolio design using React and boostrap, which calls the API and returns a list of users, which when clicked returns a list of details of the tasks completed and those that remain to be done by each user"
+                            description="Responsive portfolio design using React and boostrap, which calls the API and returns a list of users."
                         />
                     </div>
                     <div className="style-proyecto">
@@ -56,7 +56,7 @@ class ListadoProyecto extends React.Component {
                         <Proyecto
                             link={"https://yai-design-6.herokuapp.com/"}
                             imagen="../imagenes/desig-6.png"
-                            titulo="Design-Learning-Mercadito"
+                            titulo="Learning-Mercadito"
                             description="Responsible design created with React, which allows you to make calls to the Api showing you the products and the details of each one of them."
                         />
                     </div>
