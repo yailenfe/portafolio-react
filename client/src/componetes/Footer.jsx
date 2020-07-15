@@ -25,7 +25,7 @@ class Footer extends React.Component {
                         </a>
                     </li>
                     <li>
-                        <a href="https://wa.me/59895032039/?text=Hola%20Quisira%20Informacion" target="_blank">
+                        <a href="https://wa.me/59895032039/?text=Hi,%20I%20would%20like%20more%20information" target="_blank">
                             <i class="fab fa-whatsapp-square"></i>
                         </a>
                     </li>
@@ -34,5 +34,7 @@ class Footer extends React.Component {
         );
     }
 }
+
+
 
 export default Footer;
